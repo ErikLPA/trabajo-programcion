@@ -1,12 +1,24 @@
 import math
-
+#autores:ERik Pinto
+#autores:CLaudio abarca
 operacion = input('''
-Introduce una opción:
-+ para suma
-- para resta
-* para multiplicación
-/ para división
-r para calcular la raíz cuadrada
+######################################                 
+# Bienvenido Nuestra Calculadora     #
+#autores:ERik Pinto                  #
+#autores:CLaudio abarca              #
+######################################
+# # # # #Bienvenidos al himalaya #####
+######################################                 
+#  Introduce una opción:             #
+# + para suma                        #
+# - para resta                       #
+# * para multiplicación              #
+# / para división                    #
+# r para calcular la raíz cuadrada   #
+# p para potencia                    #
+######################################
+########>>Itroduce una opción<<####### 
+#####Presiona Enter para continuar####                
 
 ''')
 
@@ -18,19 +30,24 @@ if operacion != 'r':
 
 if operacion == '+':
     print('{} + {} = '.format(number_1, number_2))
-    print(number_1 + number_2)
+    print("####",number_1 + number_2,"####")
 
 elif operacion == '-':
     print('{} - {} = '.format(number_1, number_2))
-    print(number_1 - number_2)
+    print("####",number_1 - number_2,"####")
 
 elif operacion == '*':
     print('{} * {} = '.format(number_1, number_2))
-    print(number_1 * number_2)
+    print("####",number_1 * number_2,"####")
 
 elif operacion == '/':
     print('{} / {} = '.format(number_1, number_2))
-    print(number_1 / number_2)
+    print("####",number_1 / number_2,"####")
+
+elif operacion == 'p':
+    print('{} ** {} = '.format(number_1, number_2))
+    print("####",number_1 ** number_2,"####")
+
 
 elif operacion == 'r':
     # Calcular la raíz cuadrada del primer número
